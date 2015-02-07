@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta content="utf-8" http-equiv="encoding">
+    <title>As You Wish</title>
+    <link href="css/foundation.min.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="scripts/slick/slick.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body ng-app="app">
+    <div class="row" ng-controller="IndexCtrl as vm">
+        <div class="columns small-12">
+            <div class="contain-to-grid fixed">
+                <nav class="top-bar" data-topbar role="navigation">
+                    <ul class=" title-area">
+                        <li class="name">
+                            <h1><a href="#" title="Home">AS YOU WISH pdx</a></h1>
+                        </li>
+                        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                        <li class="toggle-topbar menu-icon"><a><span>Menu</span></a></li>
+                    </ul>
+                    <section class="top-bar-section">
+                        <!-- Right Nav Section -->
+                        <ul class="right">
+                            <li class="active" ng-class="{'active-menu-tab': vm.activePage === 'about'}"><a href="#/about">ABOUT</a></li>
+                            <li class="active" ng-class="{'active-menu-tab': vm.activePage === 'events'}"><a href="#/events">EVENTS</a></li>
+                            <li class="active" ng-class="{'active-menu-tab': vm.activePage === 'spaces'}"><a href="#/spaces">SPACES</a></li>
+                            <li class="active" ng-class="{'active-menu-tab': vm.activePage === 'giftshop'}"><a href="#/giftshop">GIFTSHOP</a></li>
+                            <li class="active" ng-class="{'active-menu-tab': vm.activePage === 'buisnesses'}"><a href="#/businesses">BUSINESSES</a></li>
+                            <li class="active" ng-class="{'active-menu-tab': vm.activePage === 'connect'}"><a href="#/connect">CONNECT</a></li>
+                        </ul>
+                    </section>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section class="view-area">
+        <div ng-view></div>
+    </section>
+    <section class="social-media-links">
+        <div class="row">
+            <div class="columns small-offset-2 small-8 end">
+                <ul>
+                    <li><a href="https://www.facebook.com/AsYouWishpdx" target="_blank"><span class="fa fa-facebook" title="Visit us on Facebook"></span></a></li>
+                    <li><a href="https://www.facebook.com/AsYouWishpdx" target="_blank"><span>Like us on Facebook</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="address">
+        <div class="row">
+            <div class="columns small-12">
+                <a href="https://www.google.com/maps/place/6063+NE+Glisan+Street+Portland+OR+97213" title="Map and Directions" target="_blank">6063 NE Glisan St Portland, Oregon 97213</a>
+            </div>
+        </div>
+    </section>
+    <script src="scripts/jquery-1.9.1.js"></script>
+    <script src="scripts/foundation.min.js"></script>
+    <script src="scripts/foundation.equalizer.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/angular-route.min.js"></script>
+    <script src="scripts/mm-foundation-tpls-0.4.0.min.js"></script>
+    <script src="scripts/slick/slick.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
