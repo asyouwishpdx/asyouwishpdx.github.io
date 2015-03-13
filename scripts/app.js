@@ -16,11 +16,9 @@
     }]);
 
     app.config(
-        ['$routeProvider', '$locationProvider',
-            function ($routeProvider, $locationProvider) {
+        ['$routeProvider',
+            function ($routeProvider) {
                 var when = $routeProvider.when;
-
-                $locationProvider.html5Mode(true);
 
                 $routeProvider.when = function (path, route) {
                     route.caseInsensitiveMatch = true;
