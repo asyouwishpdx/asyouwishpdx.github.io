@@ -266,5 +266,9 @@ section.events {
 }
 
 .businesses-list .panel {
-    height: 200px;
+    min-height: 150px;
+}
+
+ul {
+    list-style: none;
 }
