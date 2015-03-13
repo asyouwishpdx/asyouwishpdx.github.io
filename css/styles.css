@@ -82,13 +82,6 @@ section.view-area {
     text-decoration: underline;
 }
 
-section.header {
-}
-
-section.front-page-images img {
-    max-height: 336px;
-}
-
 section.header h2 {
     margin-top: 0.5em;
 }
