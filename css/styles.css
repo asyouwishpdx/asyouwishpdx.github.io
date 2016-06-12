@@ -4,6 +4,7 @@
 body {
 	background-color: #FFF8EB;
 	font-family: 'IM Fell Great Primer', serif;
+	font-size: 1rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -29,12 +30,12 @@ body p {
 }
 
 section.view-area {
-	margin-top: 1em;
+	margin-top: 1rem;
 }
 
 @media (max-width: 954px) {
 	section.view-area {
-		margin-top: 3em;
+		margin-top: 3rem;
 	}
 }
 
@@ -83,7 +84,7 @@ section.view-area {
 }
 
 section.header h2 {
-	margin-top: 0.5em;
+	margin-top: 0.5rem;
 }
 
 section.main-page-text {
@@ -105,7 +106,7 @@ section.social-media-links li {
 	left: calc(50% - 123px);
 	width: 40px;
 	border: 1px solid black;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	text-align: center;
 	margin-right: -4px;
 }
@@ -175,7 +176,7 @@ button.slick-prev::before, button.slick-next::before {
 
 	.photo-grid li {
 		display: inline-block;
-		margin: 0 0 0 1em;
+		margin: 0 0 0 1rem;
 		width: 210px;
 	}
 
@@ -220,7 +221,7 @@ button.slick-prev::before, button.slick-next::before {
 	}
 
 		.photo-grid figcaption p {
-			font-size: 1.5em;
+			font-size: 1.5rem;
 			position: relative;
 			top: -40px;
 			width: 210px;
