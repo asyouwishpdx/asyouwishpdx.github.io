@@ -2,266 +2,274 @@
 @import url(//fonts.googleapis.com/css?family=Tinos);
 
 body {
-    background-color: #FFF8EB;
-    font-family: 'IM Fell Great Primer', serif;
+	background-color: #FFF8EB;
+	font-family: 'IM Fell Great Primer', serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'IM Fell Great Primer', serif;
+	font-family: 'IM Fell Great Primer', serif;
 }
 
 .top-bar-section ul li > a {
-    font-family: 'IM Fell Great Primer', serif;
+	font-family: 'IM Fell Great Primer', serif;
 }
 
 body a {
-    font-family: 'IM Fell Great Primer', serif;
-    color: #9C3108;
+	font-family: 'IM Fell Great Primer', serif;
+	color: #9C3108;
 }
 
-    body a:hover {
-        color: #9C3108;
-        text-decoration: underline;
-    }
+	body a:hover {
+		color: #9C3108;
+		text-decoration: underline;
+	}
 
 body p {
-    font-family: 'Tinos', sans-serif;
+	font-family: 'Tinos', sans-serif;
 }
 
 section.view-area {
-    margin-top: 1em;
+	margin-top: 1em;
 }
 
 @media (max-width: 954px) {
-    section.view-area {
-        margin-top: 3em;
-    }
+	section.view-area {
+		margin-top: 3em;
+	}
 }
 
 @media (min-width: 641px) {
-    div.contain-to-grid {
-        background-color: rgba(255,248,235,0.5);
-        color: black;
-    }
+	div.contain-to-grid {
+		background-color: rgba(255,248,235,0.5);
+		color: black;
+	}
 
-    .top-bar {
-        background-color: rgba(255,248,235,0); /*#FFF8EB*/
-        color: black !important;
-    }
+	.top-bar {
+		background-color: rgba(255,248,235,0); /*#FFF8EB*/
+		color: black !important;
+	}
 
-        .top-bar .name h1 a {
-            color: black !important;
-            font-size: 2em !important;
-        }
+		.top-bar .name h1 a {
+			color: black !important;
+			font-size: 2em !important;
+		}
 
-    .top-bar-section li a:not(.button) {
-        background-color: rgba(255,248,235,0) !important;
-        color: black !important;
-    }
+	.top-bar-section li a:not(.button) {
+		background-color: rgba(255,248,235,0) !important;
+		color: black !important;
+	}
 
-        .top-bar-section li a:not(.button):hover {
-            color: black !important;
-        }
+		.top-bar-section li a:not(.button):hover {
+			color: black !important;
+		}
 
-    .top-bar-section ul li {
-        background-color: rgba(255,248,235,0) !important;
-        color: black !important;
-    }
+	.top-bar-section ul li {
+		background-color: rgba(255,248,235,0) !important;
+		color: black !important;
+	}
 
-        .top-bar-section ul li.active > a {
-            background-color: rgba(255,248,235,0);
-            color: black !important;
-        }
+		.top-bar-section ul li.active > a {
+			background-color: rgba(255,248,235,0);
+			color: black !important;
+		}
 
-            .top-bar-section ul li.active > a:hover {
-                background-color: rgba(255,248,235,0) !important;
-            }
+			.top-bar-section ul li.active > a:hover {
+				background-color: rgba(255,248,235,0) !important;
+			}
 }
 
 .active-menu-tab {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 section.header h2 {
-    margin-top: 0.5em;
+	margin-top: 0.5em;
 }
 
 section.main-page-text {
-    margin: 1em 0;
-    text-align: center;
+	margin: 1em 0;
+	text-align: center;
 }
 
 section.address {
-    text-align: center;
+	text-align: center;
 }
 
 section.social-media-links ul {
-    list-style: none;
+	list-style: none;
 }
 
 section.social-media-links li {
-    display: inline;
-    position: relative;
-    left: calc(50% - 123px);
-    width: 40px;
-    border: 1px solid black;
-    font-size: 1.5em;
-    text-align: center;
-    margin-right: -4px;
+	display: inline;
+	position: relative;
+	left: calc(50% - 123px);
+	width: 40px;
+	border: 1px solid black;
+	font-size: 1.5em;
+	text-align: center;
+	margin-right: -4px;
 }
 
-    section.social-media-links li span {
-        padding: 5px;
-        color: #008CBA;
-    }
+	section.social-media-links li span {
+		padding: 5px;
+		color: #008CBA;
+	}
 
-    section.social-media-links li a:hover {
-        color: #008CBA;
-        text-decoration: none;
-    }
+	section.social-media-links li a:hover {
+		color: #008CBA;
+		text-decoration: none;
+	}
 
 section.events h2 {
-    text-align: center;
+	text-align: center;
 }
 
 section.events iframe {
-    position: relative;
-    left: calc(50% - 300px);
+	position: relative;
+	left: calc(50% - 300px);
+}
+
+section.spaces .room-details h4, section.spaces .room-details p {
+	text-align: center;
+}
+
+section.spaces .room-details a, section.spaces .room-details a:hover {
+	color: black;
 }
 
 button.slick-prev::before, button.slick-next::before {
-    color: black;
+	color: black;
 }
 
 .slick-dots li button:before {
-    left: -15px;
+	left: -15px;
 }
 
 .two-tabs dd {
-    width: 50%;
+	width: 50%;
 }
 
 .tabs dd a {
-    text-transform: uppercase;
-    font-family: 'IM Fell Great Primer', serif;
+	text-transform: uppercase;
+	font-family: 'IM Fell Great Primer', serif;
 }
 
 .tabs dd > a {
-    background-color: transparent;
+	background-color: transparent;
 }
 
-    .tabs dd > a:hover {
-        color: black;
-        background-color: transparent;
-    }
+	.tabs dd > a:hover {
+		color: black;
+		background-color: transparent;
+	}
 
 .tabs dd.active a {
-    background-color: transparent;
-    text-decoration: underline;
+	background-color: transparent;
+	text-decoration: underline;
 }
 
 .photo-grid {
-    text-align: center;
-    margin-left: 0;
+	text-align: center;
+	margin-left: 0;
 }
 
-    .photo-grid li {
-        display: inline-block;
-        margin: 0 0 0 1em;
-        width: 210px;
-    }
+	.photo-grid li {
+		display: inline-block;
+		margin: 0 0 0 1em;
+		width: 210px;
+	}
 
-        .photo-grid li a span.room-label {
-            text-align: center;
-            color: black;
-            margin: -0.5em 0 0 0;
-        }
+		.photo-grid li a span.room-label {
+			text-align: center;
+			color: black;
+			margin: -0.5em 0 0 0;
+		}
 
-    .photo-grid img {
-        display: block;
-        height: auto;
-        max-width: 100%;
-    }
+	.photo-grid img {
+		display: block;
+		height: auto;
+		max-width: 100%;
+	}
 
-    .photo-grid figure {
-        height: auto;
-        overflow: hidden;
-        position: relative;
-        width: 210px;
-        margin-left: 0;
-    }
+	.photo-grid figure {
+		height: auto;
+		overflow: hidden;
+		position: relative;
+		width: 210px;
+		margin-left: 0;
+	}
 
-    .photo-grid figcaption {
-        background: rgba(0,0,0,0.3);
-        color: white;
-        display: table;
-        height: 100%;
-        width: 210px;
-        left: 0;
-        opacity: 0;
-        position: absolute;
-        right: 0;
-        top: 0px;
-        -webkit-transition: all 300ms;
-        -moz-transition: all 300ms;
-        transition: all 300ms;
-        -webkit-transition-delay: 100ms;
-        -moz-transition-delay: 100ms;
-        transition-delay: 100ms;
-        display: block;
-    }
+	.photo-grid figcaption {
+		background: rgba(0,0,0,0.3);
+		color: white;
+		display: table;
+		height: 100%;
+		width: 210px;
+		left: 0;
+		opacity: 0;
+		position: absolute;
+		right: 0;
+		top: 0px;
+		-webkit-transition: all 300ms;
+		-moz-transition: all 300ms;
+		transition: all 300ms;
+		-webkit-transition-delay: 100ms;
+		-moz-transition-delay: 100ms;
+		transition-delay: 100ms;
+		display: block;
+	}
 
-        .photo-grid figcaption p {
-            font-size: 1.5em;
-            position: relative;
-            top: -40px;
-            width: 210px;
-            -webkit-transition: all 300ms ease-out;
-            -moz-transition: all 300ms ease-out;
-            transition: all 300ms ease-out;
-        }
+		.photo-grid figcaption p {
+			font-size: 1.5em;
+			position: relative;
+			top: -40px;
+			width: 210px;
+			-webkit-transition: all 300ms ease-out;
+			-moz-transition: all 300ms ease-out;
+			transition: all 300ms ease-out;
+		}
 
-    .photo-grid li:hover figcaption {
-        opacity: 1;
-    }
+	.photo-grid li:hover figcaption {
+		opacity: 1;
+	}
 
-        .photo-grid li:hover figcaption p {
-            -moz-transform: translateY(60px);
-            -webkit-transform: translateY(60px);
-            transform: translateY(60px);
-        }
+		.photo-grid li:hover figcaption p {
+			-moz-transform: translateY(60px);
+			-webkit-transform: translateY(60px);
+			transform: translateY(60px);
+		}
 
 .connect-map iframe {
-    width: 100%;
+	width: 100%;
 }
 
 .connect-label {
-    font-family: 'IM Fell Great Primer', serif;
-    text-align: left;
+	font-family: 'IM Fell Great Primer', serif;
+	text-align: left;
 }
 
 .connect-field, .connect-field a {
-    font-family: 'IM Fell Great Primer', serif;
-    color: #DF3A01;
-    text-align: left;
+	font-family: 'IM Fell Great Primer', serif;
+	color: #DF3A01;
+	text-align: left;
 }
 
 div.single-item img {
-    width: 100%;
+	width: 100%;
 }
 
 section.events {
-    min-height: 70%;
+	min-height: 70%;
 }
 
 .panel {
-    background-color: #BFFFFE;
+	background-color: #BFFFFE;
 }
 
 .businesses-list .panel {
-    min-height: 150px;
+	min-height: 150px;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
